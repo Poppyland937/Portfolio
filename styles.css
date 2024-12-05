@@ -24,11 +24,25 @@ body {
   border-radius: 8px;
   padding: 20px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  margin: 20px 0;
+  margin: 10px 0;
 }
 
 .about {
   grid-column: span 2;
+}
+.about-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.about-image img {
+  width: 150px; /* Set the size of your photo */
+  height: 150px; /* Set the size of your photo */
+  border-radius: 50%; /* Makes the photo circular */
+  object-fit: cover; /* Ensures the image fits the container without distortion */
+  border: 3px solid #ccc; /* Optional: adds a border around the image */
 }
 
 .skills {
