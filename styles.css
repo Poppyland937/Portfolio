@@ -44,3 +44,20 @@ body {
   grid-column: 3;
   grid-row: span 2;
 }
+.box:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+  background-color: #f0f8ff;
+}
+.about {
+  background-color: #ffe4e1;
+}
+.skills {
+  background-color: #e6e6fa;
+}
+.projects {
+  background-color: #f0fff0;
+}
+.contact {
+  background-color: #fffacd;
+}
