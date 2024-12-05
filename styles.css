@@ -61,3 +61,36 @@ body {
 .contact {
   background-color: #fffacd;
 }
+@media (max-width: 768px) {
+  .bento-box {
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: 1fr;
+  }
+
+  .about,
+  .skills,
+  .projects,
+  .contact {
+    grid-column: 1;
+    grid-row: auto;
+  }
+}
+.social-icons {
+  display: flex;
+  gap: 20px;
+}
+
+.social-icons a {
+  text-decoration: none;
+  font-size: 24px;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #0077b5; /* LinkedIn blue */
+}
+
+.social-icons a i {
+  margin-right: 8px; /* Space between icon and text */
+}
