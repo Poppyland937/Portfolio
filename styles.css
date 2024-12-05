@@ -24,6 +24,7 @@ body {
   border-radius: 8px;
   padding: 20px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
 }
 
 .about {
@@ -36,13 +37,18 @@ body {
 }
 
 .projects {
-  grid-column: 2;
+  grid-column: span 2;
   grid-row: 2;
 }
 
 .contact {
   grid-column: 3;
-  grid-row: span 2;
+  grid-row: span 1;
+}
+.education {
+  grid-column: 1;
+  grid-row: 4;
+  background-color: #fefadf;
 }
 .box:hover {
   transform: scale(1.05);
